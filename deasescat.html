@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deases Catlog</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body{
+            background: black;
+        }
+        h1{
+            text-align: center;
+            margin-top: 100px;
+            color: white;
+            letter-spacing: 5px;
+            font-size: 40px;
+        }
+        h1::after{   
+            content: "";
+            height: 5px;
+            width: 300px;
+            background : linear-gradient(90deg, #3F5EFB 0%, #40f849);
+            border-radius: 25px;
+            display: block;
+            margin: auto;
+        }
+        .main .one{
+            justify-content: center;
+            display: flex;
+        }
+        .main .b{
+            padding: 20px;
+            margin-top: 80px;
+            background: #40f849;
+            margin-left: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            transition: .5s;
+            margin-right: 30px;
+        }
+        .main .b:hover{
+            background: #3F5EFB;
+        }
+        .main label{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        button{
+            margin: 50px;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            transition: .5s;
+            cursor: pointer;
+            font-size: 18px;
+            background : linear-gradient(90deg, #40f849 0%, #3F5EFB);
+        }
+        button:hover{
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>SYMPTOMS SELECTION</h1>
+    <div class="main">
+        <div class="one">
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> FEVER</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> COUGH</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">CHILLS</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">OMITTING</label><br>
+            </div>
+        </div>
+        <div class="one">
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">NAUSEA</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">VERTIGO</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> BREATHING PROBLEM</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">CHEST PAIN</label><br>
+            </div>
+        </div>
+        <div class="one">
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">HEADACHE</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">BODY PAIN</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> RASH</label><br>
+            </div>
+
+            <div class="b">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> ANY ALLERGIES</label><br>
+            </div>
+        </div>
+    </div>
+
+    <center><button>PROCEED FOR MADICATIONS</button></center>
+</html>

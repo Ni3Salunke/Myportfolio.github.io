@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body{
+            background:  linear-gradient(90deg, #40f849 0%, #3F5EFB);
+        }
+        form{
+            margin: auto;
+            margin-top: 50px;
+            display: grid;
+            /* transform: translate(100%, 30%); */
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            width: 500px;
+        }
+        form h1{
+            text-align: center;
+            background: -webkit-linear-gradient(#40f849, #3F5EFB);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        form input{
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: large;
+            border: 2px solid #40f849;
+        }
+        form #button{
+            font-size: 20px;
+            border: none;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, #40f849 0%, #3F5EFB);
+            cursor: pointer;
+            color: white;
+        }
+        form img{
+            height: 180px;
+            margin: auto;
+            padding: 10px;
+        }
+        @media (max-width:900px) {
+            form{
+                width: 100%;
+                background: none;
+                padding: 20px;
+            }
+            h1{
+                font-size: 30px;
+                letter-spacing: 0px;
+            }
+        }
+        .a{
+            margin-top: 15px;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #left, #right{
+            transition: .5s;
+        }
+        a:hover{
+            color: #FC466B;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>IT'S OKAY !</h1>
+        <h1>RESET PASSWORD</h1>
+        <img src="logo.png" alt="">
+        <input type="email" placeholder="Enter Email" name="" required>
+        <input type="number" placeholder="Enter OTP" name="" required>
+        <input type="submit" value="SEND OTP" id="button">
+
+    <div class="a">
+        <a href="registration.html"  id="left">New Registration?</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html"  id="right">Login In</a>
+    </div>
+
+    </form>
+</body>
+</html>
